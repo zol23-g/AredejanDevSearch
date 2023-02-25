@@ -28,14 +28,10 @@ See the full course here: https://dennisivy.teachable.com/p/django-beginners-cou
 * Django REST Framework
 
 # Home Page
-<img src="./resources/images/Devsearch Home.jpg">  
-
+ ![Devsearch Home](https://user-images.githubusercontent.com/92586852/221362495-f0eafa97-66e2-46c2-b1ac-10f2d0d02c70.jpg)
 
 # Projects Page
-<img src="./resources/images/DevSearch Projects.jpg">  
-
-# Profile Page
-<img src="./resources/images/Devsearch Profile.jpg">  
+![DevSearch Projects](https://user-images.githubusercontent.com/92586852/221362512-4840596d-ff62-404d-b270-39b8110ba341.jpg)
 
 # User Inbox
-<img src="./resources/images/Devsearch Inbox.jpg">  
+![Devsearch Inbox](https://user-images.githubusercontent.com/92586852/221362543-8bcbf483-2bab-4519-80eb-2d1eb23cfe63.png)
