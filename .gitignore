@@ -1,0 +1,8 @@
+# Ignore staticfiles folder
+staticfiles/
+
+# Ignore .env file
+.env
+
+# Ignore bugs.txt file
+bugs.txt

@@ -1,0 +1,19 @@
+asgiref==3.6.0
+autopep8 @ file:///opt/conda/conda-bld/autopep8_1650463822033/work
+certifi @ file:///C:/b/abs_85o_6fm0se/croot/certifi_1671487778835/work/certifi
+Django==3.2
+django-cors-headers==3.13.0
+django-storages==1.13.2
+djangorestframework==3.14.0
+djangorestframework-simplejwt==5.2.2
+Pillow==9.4.0
+psycopg2==2.9.5
+pycodestyle @ file:///C:/b/abs_d77nxvklcq/croot/pycodestyle_1674267231034/work
+PyJWT==2.6.0
+python-decouple==3.7
+pytz==2022.7.1
+sqlparse==0.4.3
+toml @ file:///tmp/build/80754af9/toml_1616166611790/work
+tzdata==2022.7
+whitenoise==6.3.0
+wincertstore==0.2
