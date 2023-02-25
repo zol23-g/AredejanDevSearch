@@ -1,5 +1,3 @@
-# Ignore staticfiles folder
-staticfiles/
 
 # Ignore .env file
 .env
