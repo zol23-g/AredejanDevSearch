@@ -1,6 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
 
-# Ignore .env file
+# Local development settings
+*/settings/local.py
 .env
 
-# Ignore bugs.txt file
-bugs.txt
+# Database
+# *.sqlite3
+# db.sqlite3
+
+# Static files
+staticfiles/
+*.pyc
+
+# Media files
+media/
+
+# Logs and other generated files
+logs/
+*.log
+*.pid
+*.coverage
