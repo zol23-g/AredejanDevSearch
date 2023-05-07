@@ -3,6 +3,9 @@ Sourcode and Resources for Django 2021 Course
 
 See the full course here: https://dennisivy.teachable.com/p/django-beginners-course
 
+# Live Web Site
+https://devsearch-zaman.azurewebsites.net/
+
 
 # Installation
 * 1 - clone repo https://github.com/kazimovzaman2/DevSearch
