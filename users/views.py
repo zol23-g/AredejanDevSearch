@@ -98,7 +98,7 @@ def userAccount(request):
     context = {'profile': profile, 'skills': skills, 'projects': projects}
     return render(request, "users/account.html", context)
 
-
+# Edit account view
 @login_required(login_url='login')
 def editAccount(request):
     profile = request.user.profile
@@ -114,7 +114,7 @@ def editAccount(request):
     context = {'form': form, }
     return render(request, 'users/profile_form.html', context)
 
-
+# Create Skill view
 @login_required(login_url='login')
 def createSkill(request):
     profile = request.user.profile
