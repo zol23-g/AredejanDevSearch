@@ -76,6 +76,7 @@ def profiles(request):
     return render(request, 'users/profiles.html', context)
 
 
+# User Profile
 def userProfile(request, pk):
     profile = Profile.objects.get(id=pk)
 
