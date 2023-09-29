@@ -9,7 +9,7 @@ https://docs.djangoproject.com/en/4.1/topics/settings/
 For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.1/ref/settings/
 """
-
+import cloudinary
 from datetime import timedelta
 from pathlib import Path
 import os
@@ -54,13 +54,11 @@ INSTALLED_APPS = [
 ]
 
 
-
 CLOUDINARY_STORAGE = {
-    'CLOUD_NAME': os.environ["CLOUD_NAME"],
-    'API_KEY': os.environ["API_KEY"],
-    'API_SECRET': os.environ["API_SECRET"],
+    'CLOUD_NAME': "dyb6pdagm",
+    'API_KEY': "122517641371424",
+    'API_SECRET': "puJiI-3NwsE1FY1NZA6mju-AZVc",
 }
-
 
 
 REST_FRAMEWORK = {
@@ -68,7 +66,6 @@ REST_FRAMEWORK = {
         'rest_framework_simplejwt.authentication.JWTAuthentication',
     )
 }
-
 
 
 SIMPLE_JWT = {
@@ -154,7 +151,6 @@ WSGI_APPLICATION = "devsearch.wsgi.application"
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
 
-
 # Postgresql
 
 # DATABASES = {
@@ -209,8 +205,6 @@ USE_I18N = True
 USE_TZ = True
 
 
-
-
 CORS_ALLOW_ALL_ORIGINS = True
 
 
@@ -218,10 +212,8 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = os.environ["EMAIL_HOST_USER"]
-EMAIL_HOST_PASSWORD = os.environ["EMAIL_HOST_PASSWORD"]
-
-
+EMAIL_HOST_USER = "EMAIL_HOST_USER"
+EMAIL_HOST_PASSWORD = "EMAIL_HOST_PASSWORD"
 
 
 # Static files (CSS, JavaScript, Images)
