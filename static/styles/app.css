@@ -1,9 +1,9 @@
 :root {
-  --color-sub: #2d2d39;
+  --color-sub: #05cff3;
 }
 
 .btn--sub {
-  background-color: var(--color-sub-light);
+  background-color: #000000
 }
 
 .card {
@@ -54,7 +54,7 @@ img {
 
 .header__menuItem > a {
   color: var(--color-light);
-  font-weight: 300;
+  font-weight: 600;
 }
 
 .toggle-menu > span {
@@ -658,7 +658,7 @@ img {
   left: 0;
   bottom: 0;
   right: 0;
-  background: url(../images/pattern.jpg);
+  background: url(../images/Premium\ Vector.jpg);
 }
 
 .auth > .card {
